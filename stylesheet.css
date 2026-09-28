@@ -63,10 +63,6 @@ nav {
   gap: 20px;
 }
 
-nav a {
-  color: #1772d0;
-}
-
 
 /* =========================
    Introduction
@@ -135,7 +131,7 @@ h2 {
 
 
 /* =========================
-   Education / Experience
+   Entries
    ========================= */
 
 .entry {
@@ -163,13 +159,22 @@ h2 {
   font-weight: 600;
 }
 
-.institution {
-  color: #1772d0;
-  font-weight: 500;
-}
-
 .topic {
   margin: 7px 0 0;
+}
+
+
+/* =========================
+   Experience details
+   ========================= */
+
+.experience-info {
+  margin: 7px 0 0;
+  padding-left: 20px;
+}
+
+.experience-info li {
+  margin: 2px 0;
 }
 
 
